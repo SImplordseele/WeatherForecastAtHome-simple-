@@ -1,0 +1,66 @@
+# Maven build output
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper files
+.mvn/
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+*.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Build directories
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+*.generated
+*.backup
+*.bak~
+
+# Other IDE-specific
+*.idea/
+*.metadata/
+*.recommenders/
